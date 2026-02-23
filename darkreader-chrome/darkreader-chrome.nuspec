@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>darkreader-chrome</id>
+    <version>0.0.2</version>
+    <owners>alg</owners>
+    <title>Darkreader Chromium Extension</title>
+    <authors>Dark Reader Ltd.</authors>
+    <projectUrl>https://darkreader.org/</projectUrl>
+    <summary>Eye-care browser extension</summary>
+    
+    <description>
+    Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.
+
+    This eye-care extension enables night mode by creating dark themes for websites on the fly. 
+
+    Dark Reader inverts bright colors, making them high contrast and easy to read at night.
+
+    You can adjust the brightness, contrast, sepia filter, dark mode, font settings and the ignore-list. There are Developer Tools for experienced users.
+
+    Dark Reader doesn't show ads, doesn't send users' data anywhere, and it's fully open-source. 
+        
+    Before you install it, disable similar extensions. Enjoy watching!
+        
+    *NOTES:* 
+    
+    * Version number is not relevant, it ensures that when the packages is installed it always pulls the latest version
+    * When installing this package your browser will alert you of changes/action needed, from there you can enable the extension through the browser settings 
+    * This was tested without googlechrome dependencies using Google Chrome, Brave, and Vivaldi Web browsers, other Blink/Chromium-based browsers are not guaranteed to work
+    * Microsoft Edge, Opera, and Opera-GX where tested and do not work with this package 
+    </description>
+
+    <licenseUrl>https://darkreader.ltd/terms/</licenseUrl>
+    <packageSourceUrl>https://github.com/darkreader/darkreader</packageSourceUrl>
+    <iconUrl>https://github.com/andluigee/my-choco-packages/blob/main/darkreader-chrome/icons/darkreader-iocn.png</iconUrl>
+    <copyright>Copyright 2025</copyright>
+    <tags>Darkreader Extension Darkmode Chromium Chrome Brave Vivaldi</tags>
+    </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
