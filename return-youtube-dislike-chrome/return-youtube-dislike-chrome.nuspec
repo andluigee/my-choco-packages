@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>return-youtube-dislike-chrome</id>
+    <version>0.0.2</version>
+    <owners>alg</owners>
+    <title>Return Youtube Dislike Chrome</title>
+    <authors>Dmitrii Selivanov</authors>
+    <projectUrl>https://returnyoutubedislike.com/</projectUrl>
+    <summary>Browser extension that shows you dislikes on Youtube</summary>
+
+    <description>
+    Returns ability to see dislikes
+
+    Return YouTube Dislike restores the ability to see dislikes on YouTube.
+
+    Starting December 13th 2021, YouTube removed the ability to see dislikes from their API.
+    This extension aims to restore power to users by using a combination of archived like and dislike data, as well as the likes and dislikes made by extension users to show the most accurate ratings.
+
+    Currently has almost a billion videos data stored before December 13th, 2021
+
+    Actively growing and keeping up to date with uploads after December 13th, 2021
+
+    The more users that use the extension, the more accurate it will be
+
+    Unpopular videos uploaded after December 13th, 2021 may have less accurate data shown than more popular videos.
+
+    This extension is currently in an active development phase, so if you experience any issues, dont hesitate to report them on our GitHub page or in our Discord server.
+
+    More features to come soon! 
+
+    *NOTES:* 
+    
+    * Version number is not relevant, it ensures that when the packages is installed it always pulls the latest version
+    * When installing this package your browser will alert you of changes/action needed, from there you can enable the extension through the browser settings 
+    * This was tested without googlechrome dependencies using Google Chrome, Brave, and Vivaldi Web browsers (Vivaldi requires manual activation in settings sometimes), other Blink/Chromium-based browsers are not guaranteed to work
+    * Microsoft Edge, Opera, and Opera-GX where tested and do not work with this package
+
+    </description>
+
+    <licenseUrl>https://github.com/Anarios/return-youtube-dislike/blob/main/LICENSE</licenseUrl>
+    <packageSourceUrl>https://github.com/Anarios/return-youtube-dislike</packageSourceUrl>
+    <iconUrl>https://github.com/andluigee/my-choco-packages/blob/main/return-youtube-dislike-chrome/icon/youtube-dislike-icon.png</iconUrl>
+    <tags>Youtube Extension Chromium Chrome Brave Vivaldi</tags>
+    <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
