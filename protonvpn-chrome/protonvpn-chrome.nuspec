@@ -30,8 +30,8 @@
     </description>
 
     <licenseUrl>https://proton.me/legal/terms</licenseUrl>
-    <packageSourceUrl>https://github.com/ProtonVPN/proton-vpn-browser-extension</packageSourceUrl>
-    <iconUrl>https://github.com/andluigee/my-choco-packages/blob/main/protonvpn-chrome/icons/protonvpn.png</iconUrl>
+    <packageSourceUrl>https://github.com/andluigee/my-choco-packages</packageSourceUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/andluigee/my-choco-packages@ad36acff2cc65325a5a57ae98e72d698523b3835/protonvpn-chrome/icons/protonvpn-icon.png</iconUrl>
     <copyright>Copyright 2026</copyright>
     <tags>ProtonVPN VPN Proton AG Extension Chromium Chrome Brave Vivaldi</tags>
     </metadata>
