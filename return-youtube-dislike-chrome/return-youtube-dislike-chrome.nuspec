@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>return-youtube-dislike-chrome</id>
-    <version>0.0.2</version>
+    <version>1.0.0</version>
     <owners>alg</owners>
     <title>Return Youtube Dislike Chrome</title>
     <authors>Dmitrii Selivanov</authors>
@@ -41,7 +41,7 @@
 
     <licenseUrl>https://github.com/Anarios/return-youtube-dislike/blob/main/LICENSE</licenseUrl>
     <packageSourceUrl>https://github.com/Anarios/return-youtube-dislike</packageSourceUrl>
-    <iconUrl>https://github.com/andluigee/my-choco-packages/blob/main/return-youtube-dislike-chrome/icon/youtube-dislike-icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/andluigee/my-choco-packages@319d4df63881f19ec1dd0b1114d26525a25d247b/return-youtube-dislike-chrome/icons/youtube-thumbdown-iocn.png</iconUrl>
     <tags>Youtube Extension Chromium Chrome Brave Vivaldi</tags>
     <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
     </metadata>
