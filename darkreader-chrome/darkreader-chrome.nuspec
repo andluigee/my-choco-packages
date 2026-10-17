@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>darkreader-chrome</id>
-    <version>0.0.2</version>
+    <version>1.0.0</version>
     <owners>alg</owners>
     <title>Darkreader Chromium Extension</title>
     <authors>Dark Reader Ltd.</authors>
@@ -33,7 +33,7 @@
 
     <licenseUrl>https://darkreader.ltd/terms/</licenseUrl>
     <packageSourceUrl>https://github.com/darkreader/darkreader</packageSourceUrl>
-    <iconUrl>https://github.com/andluigee/my-choco-packages/blob/main/darkreader-chrome/icons/darkreader-iocn.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/andluigee/my-choco-packages@77ee3cf77398342fc24b22b0f6daec6d0b801878/darkreader-chrome/icons/darkreader-iocn.png</iconUrl>
     <copyright>Copyright 2025</copyright>
     <tags>Darkreader Extension Darkmode Chromium Chrome Brave Vivaldi</tags>
     </metadata>
